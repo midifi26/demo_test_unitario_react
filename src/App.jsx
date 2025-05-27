@@ -7,14 +7,14 @@ import Button from "./components/Button";
 
 function App() {
   const [count, setCount] = useState(0);
-  let a;
+
   const incrementCount = (increment) => {
     setCount(count + increment);
   };
 
   return (
     <>
-      <h1>Bolito desplegado con CI/CD</h1>
+      <h1>Desplegado en FullStack con CI/CD</h1>
       <div>
         <a href="https://vitejs.dev">
           <img src={viteLogo} className="logo" alt="Vite logo" />
