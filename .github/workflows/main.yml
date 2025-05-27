@@ -14,6 +14,7 @@ on:
     branches: 
       - main
       - develop
+      - pruebas_cicd
     paths-ignore:
       - "docs/**"
 
